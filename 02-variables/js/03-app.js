@@ -2,6 +2,6 @@
 
 const constProduct = 'Tablet';
 // Cannot be assigned
-//constProduct 'Monitor';
+//const Product 'Monitor';
 
 console.log(constProduct);

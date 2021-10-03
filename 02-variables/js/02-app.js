@@ -7,8 +7,8 @@ letProduct = 'Monitor';
 letProduct = 20;
 letProduct = null;
 letProduct = true;
-//console.log(letProduct);
+console.log(letProduct);
 
 let price;
 price = 100;
-//console.log(price);
+console.log(price);
