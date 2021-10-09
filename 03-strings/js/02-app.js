@@ -1,5 +1,4 @@
 // Methods and Functions
-
 const tweet = 'Monitor 20 inches';
 console.log(tweet);
 

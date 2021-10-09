@@ -1,9 +1,8 @@
 // Strings
-
 const product = "Monitor 1\"";
 console.log(product);
 
-// 
+// String like object
 const product2 = String('Monitor 2');
 console.log(product2);
 
