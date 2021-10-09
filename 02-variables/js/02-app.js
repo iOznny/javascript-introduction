@@ -1,5 +1,4 @@
 // Variables with let
-
 let letProduct = 'Tablet';
 
 // Reassign value
