@@ -1,5 +1,4 @@
 // Strings with Methods -> toUpperCase(), tolowerCase()
-
 const example07 = 'Monitor 20 inches';
 
 // Convert string to uppercase

@@ -1,5 +1,4 @@
 // Strings with Methods -> repeat(), split()
-
 const example06 = 'Monitor 20 inches';
 
 // Repeat text: Copies of the string on which it was called
