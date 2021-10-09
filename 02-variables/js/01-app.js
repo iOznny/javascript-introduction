@@ -1,5 +1,4 @@
 // Variable with var
-
 var product = "Monitor 24 in";
 product = 'Montor 19 in';
 product = 20;
