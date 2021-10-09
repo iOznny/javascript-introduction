@@ -1,5 +1,4 @@
 // Functions with numbers
-
 const function1 = 30;
 const function2 = 20;
 
@@ -38,5 +37,4 @@ result03 = Math.random() * 20;
 
 // Number random in range 1 to 30
 result03 = Math.floor(Math.random() * 30);
-
 console.log('Result -> ' + result03);

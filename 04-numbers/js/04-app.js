@@ -1,5 +1,4 @@
 // Order of operations 
-
 let result04;
 
 // First multiply then sum 

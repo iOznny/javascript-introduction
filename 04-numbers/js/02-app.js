@@ -1,5 +1,4 @@
 // Operations with numbers
-
 const operation1 = 30;
 const operation2 = 20;
 
