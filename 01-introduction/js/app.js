@@ -11,7 +11,7 @@ const product = 'Monitor 24 in';
 console.time('Inicio');
 console.warn('That is not allowed');
 console.warn('That is not allowed');
-console.warn('That is not allowed')
-console.warn('That is not allowed')
-console.warn('That is not allowed')
-console.timeEnd('Termino')
+console.warn('That is not allowed');
+console.warn('That is not allowed');
+console.warn('That is not allowed');
+console.timeEnd('Termino');

@@ -22,4 +22,4 @@ var dias99;
 // Initialize variables with nomenclature
 var camelCase;
 var PascalCase;
-var snake_case
+var snake_case;
