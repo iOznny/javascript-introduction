@@ -10,5 +10,4 @@ product.imagen = 'imagen.jpg';
 
 // Delete property in the object
 delete product.available;
-
 console.log(product);
