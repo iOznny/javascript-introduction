@@ -1,5 +1,4 @@
 // Create numbers
-
 const number01 = 30;
 const number02 = 20;
 const number03 = 20.20;

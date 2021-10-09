@@ -1,5 +1,4 @@
 // Operators
-
 const num01 = 20;
 const num02 = "20";
 const num03 = 30;
