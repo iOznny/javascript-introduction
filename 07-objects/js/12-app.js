@@ -13,5 +13,4 @@ function Product(name, price, available) {
 }
 
 const productTwo = new Product('Monitor', 500, true);
-
 console.log(productTwo);
