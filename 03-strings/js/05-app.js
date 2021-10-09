@@ -1,5 +1,4 @@
 // Strings with Methods -> replace(), slice(), substring() and charAt().
-
 const example05 = 'Monitor 20 inches';
 console.log(example05);
 

@@ -1,5 +1,4 @@
 // Concatenation
-
 const product03 = ' Monitor 20 inches ';
 const price03 = '30 USD';
 

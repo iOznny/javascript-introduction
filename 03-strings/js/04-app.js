@@ -1,5 +1,4 @@
 // Strings with Methods -> trimStart(), trimEnd() and trim().
-
 const example04 = '     Monitor 20 inches    ';
 console.log(example04);
 console.log(example04.length);
