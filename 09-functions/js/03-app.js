@@ -1,5 +1,5 @@
-// alert('Hola');
+alert('Hola');
 
-// prompt('¿Cual es tu edad?');
+prompt('¿Cual es tu edad?');
 
-// console.log(parseInt('20'));
+console.log(parseInt('20'));
