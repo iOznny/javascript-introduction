@@ -7,5 +7,4 @@ console.log(num1.toString()); // Method
 function sum() {
     console.log(2 + 2);   
 }
-
 sum();
