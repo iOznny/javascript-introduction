@@ -1,4 +1,5 @@
 startApp();
+
 function startApp() {
     console.log('Starting app');
     secoundFun();
@@ -6,9 +7,9 @@ function startApp() {
 
 function secoundFun() {
     console.log('Two function');
-    userAuth();
+    userAuth('Pablo');
 }
 
-function userAuth() {
-    console.log('Auth User successful');
+function userAuth(user) {
+    console.log(`${ user } auth successful`);
 }
