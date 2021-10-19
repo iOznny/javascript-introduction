@@ -1,5 +1,5 @@
 # Javascript Introduction
-Java Script - Sección 1 to 10
+Java Script - Sección 1 to 14
 
 - Introducciún
 - Variables
@@ -11,3 +11,7 @@ Java Script - Sección 1 to 10
 - Arrays
 - Funciones
 - Estructuras de Control
+- Iteradores
+- Array Methods
+- DOM
+- Events
