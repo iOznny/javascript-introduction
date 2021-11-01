@@ -79,6 +79,7 @@ img {
     background-size: 150% 150%;
     transition: background-position .3s ease;
 }
+
 .header {
     align-self: start;
     width: 100%;
@@ -87,11 +88,13 @@ img {
     justify-content: space-between;
     align-items: center;
 }
+
 .navegacion a{
     color: var(--claro);
     text-decoration: none;
     margin-right: 1rem;
 }
+
 .navegacion a:last-of-type {
     margin-right: 0;
 }
@@ -106,6 +109,7 @@ img {
     grid-template-columns: 5% auto 5%;
     grid-template-rows: max-content auto;
 }
+
 .contenido-hero h1{
     grid-column: 2 / 3;
     color: white;
