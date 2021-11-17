@@ -8,4 +8,3 @@ console.log(forms);
 // If dont element exist
 const notExist = document.querySelectorAll('not-exist');
 console.log(notExist);
-

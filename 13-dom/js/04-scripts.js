@@ -13,5 +13,6 @@ console.log(secoundCard);
 const form = document.querySelector('#formulario');
 console.log(form);
 
+// Select navbar
 const nav = document.querySelector('nav');
 console.log(nav);
