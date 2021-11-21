@@ -8,6 +8,7 @@
 html {
     box-sizing: border-box;
 }
+
 body {
     font-family: var(--fuente-principal);
 }
@@ -26,9 +27,11 @@ h1 {
 h2 {
     font-size: 2rem;
 }
+
 h3 {
     font-size: 1.8rem;
 }
+
 img {
     max-width: 100%;
 }
@@ -89,7 +92,7 @@ img {
     align-items: center;
 }
 
-.navegacion a{
+.navegacion a {
     color: var(--claro);
     text-decoration: none;
     margin-right: 1rem;
@@ -110,7 +113,7 @@ img {
     grid-template-rows: max-content auto;
 }
 
-.contenido-hero h1{
+.contenido-hero h1 {
     grid-column: 2 / 3;
     color: white;
     grid-row: 1 / 2;
@@ -123,6 +126,7 @@ img {
     display: flex;
     height: 4rem;
 }
+
 .contenido-hero form input[type="text"] {
     flex:1;
     border-radius: 10px;
@@ -133,6 +137,7 @@ img {
     padding-left: 5rem;
     font-size: 1.6rem;
 }
+
 .contenido-hero form input[type="submit"] {
     position: absolute;
     right: 1rem;
@@ -145,12 +150,12 @@ img {
     text-transform: uppercase;
     border-radius: 10px;
 }
+
 .contenido-hero form input[type="submit"]:hover {
     cursor: pointer;
 }
 
 /** Contenido Principal**/
-
 main > section {
     margin-bottom: 2rem;
 }
@@ -165,21 +170,23 @@ main > section {
     width: 100%;
 }
 
-
 .info .categoria {
     text-transform: uppercase;
     font-size: .9rem;
     font-weight: 700;
 }
+
 .info .titulo {
     font-size: 1.6rem;
     font-weight: 900;
     margin: 0;
 }
+
 .info .precio {
     color: var(--obscuro);
     font-size: .9rem;
 }
+
 /** Premium **/
 .premium {
     background-image: url(../img/hospedaje-pro.jpg);
@@ -188,6 +195,7 @@ main > section {
     height: 28rem;
     grid-template-columns: unset;
 }
+
 @media (min-width:768px) {
     .premium {
         grid-template-columns: auto 30%;
@@ -201,14 +209,17 @@ main > section {
     justify-content: center;
     padding: 1rem;
 }
+
 .premium .info h2 {
     margin-bottom: 2rem;
     text-align: center;
 }
+
 @media (min-width:768px) { 
     .premium .info {
         grid-column: 2 / 3;
-    }    
+    }
+
     .premium .info h2 {
         text-align: right;
     }
@@ -229,28 +240,32 @@ main > section {
     box-shadow: 0px 14px 43px -21px rgba(0,0,0,1);
     transition: all .3s ease-in-out;
 }
+
 .boton:hover {
     background-color: var(--primario);
     color: var(--claro);
 }
 
-
 /** Populares **/
 .destinos .contenedor-cards {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr) );
 }
+
 .destinos .card {
     position: relative;
 }
+
 .destinos .info {
     position: absolute;
     bottom: 1rem;
     left: 1rem;
     color: var(--claro);
 }
+
 .destinos .info .titulo {
     font-size: 1.8rem;
 }
+
 /** Footer */
 .footer {
     background-color: var(--claro);
@@ -265,31 +280,33 @@ main > section {
     box-shadow: 0px -18px 36px -16px rgba(0,0,0,0.52);
     padding: 3rem 0;
 }
+
 .footer.activo {
     bottom: 0;
 }
+
 .footer .contenedor {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr) );
     grid-gap: 1rem;
 }
+
 .footer .nav-footer {
     padding: 1rem;
 }
+
 .footer .nav-footer h3 {
     font-size: 1.2rem;
 }
-.footer .menu a{
+
+.footer .menu a {
     color: var(--obscuro);
     text-decoration: none;
     display: block;
     padding-top: .5rem;
 }
 
-
-
 /** Redes Socialaes**/
-
 .sociales ul {
     display: flex;
     flex-wrap: wrap;
@@ -301,20 +318,25 @@ main > section {
     flex:1 0 auto;
     list-style: none;
 }
+
 .sociales ul li {
     margin-right: 1rem;
 }
+
 .sociales ul li:last-of-type {
     margin-right: 0;
 }
-.sociales ul li a {
+
+.sociales ul li a { 
     text-decoration: none;
 }
+
 .sociales ul li a:before {
     font-family: "Font Awesome 5 Brands";
     color: var(--obscuro);
     font-size: 1.8rem;
 }
+
 .sociales ul li a[href*='facebook.com']::before {
     content: "\f39e";
 }
@@ -322,15 +344,19 @@ main > section {
 .sociales ul li a[href*='twitter.com']::before {
     content: "\f099";
 }
+
 .sociales ul li a[href*='youtube.com']::before {
     content: "\f431";
 }
+
 .sociales ul li a[href*='instagram.com']::before {
     content: "\f16d";
 }
+
 .sociales ul li a[href*='pinterest.com']::before {
     content: "\f231 ";
 }
+
 .sociales ul li span{
     display: none;
 }
