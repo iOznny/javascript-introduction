@@ -14,14 +14,12 @@ const card = document.querySelector('.card');
 card.children[1].children[1].textContent = 'New heading form traversing the dom';
 card.children[0].src = './img/hacer2.jpg';
 
-
 // Traversing the Children to Parent
 //console.log(card.parentNode);
 //console.log(card.parentElement);
 
 // Select next element down
 console.log(card.nextElementSibling);
-
 
 // Select prevent element up
 const lastCard = document.querySelector('.card:nth-child(4)');
