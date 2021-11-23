@@ -32,7 +32,6 @@ navegation.appendChild(link); // appendChild: Colocar al final del content
 navegation.insertBefore(link, navegation.children[1]); // insertBefore: (Valor, Position) Coloca el valor dependiendo la posicion
 
 
-
 // Create card in DOM dinamic
 const p1 = document.createElement('p');
 p1.textContent = 'CONCIERTO';
@@ -63,7 +62,6 @@ imagen.src = 'img/hacer2.jpg';
 imagen.classList.add('img-fluid');
 imagen.alt = 'Texto Alternativo';
 // console.log(imagen);
-
 
 // Create card
 const card = document.createElement('div');
